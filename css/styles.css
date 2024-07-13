@@ -45,5 +45,108 @@
     border: solid 1px #CCCCCC;
 }
 
+/* Main style */
 
+.container-main
+{
+    display: flex;
+    
+    justify-content: center;
+}
+
+.conteudo-principal
+{
+    width: 952px;
+    height: 800px;
+}
+
+#Foto-canal
+{
+    width: 42px;
+    height: 42px;
+    border-radius:100% ;
+    margin-right: 12px;
+}
+
+.conteudo-principal h1
+{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    margin-top: 16px;
+    
+}
+
+.conteudo-principal h3 
+{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    
+}
+
+.conteudo-principal p
+{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+
+    white-space: pre;
+    
+}
+
+
+
+.info-canal h2
+{
+    font-family: "Roboto", sans-serif;
+    font-size:14px ;
+    font-weight:600 ;
+    margin-bottom: 3px;
+}
+
+.info-canal p
+{
+    font-family: "Roboto", sans-serif;
+    font-size:14px ;
+    font-weight:400 ;
+}
+
+#Inscreva-se
+{
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    border-style: inherit;
+    background: #CC0000;
+
+    font-family:"Roboto", sans-serif ;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    display: flow;
+}
+
+
+.info-canal button
+{
+    border-radius: 100%;
+    border-style: inherit;
+    background: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.info-canal button p
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+
+    font-family:"Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
 
